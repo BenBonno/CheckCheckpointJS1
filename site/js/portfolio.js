@@ -36,5 +36,12 @@ button.addEventListener("click", function () {
 })
 
 const li = document.querySelectorAll(".li")
-const button2 = document.querySelector(".libutton")
-button.addEventListener("click", function () {
+const button2 = document.querySelector(".liButton")
+console.log(button2);
+
+button2.addEventListener("click", function () {
+    const text = ["tintin", "tonton", "tata"]
+    li.forEach((element, i) => {
+        element.innerText = text[i]
+    })
+})
