@@ -27,6 +27,8 @@ const persons = [
 
 function findAdults(arr) {
   // Your code here !
+  const Array = [];
+
 }
 
 module.exports = findAdults;

@@ -83,14 +83,12 @@ p {
   padding-right: 15px;
 }
 
-.menu {
-  display: flex;
-  justify-content: flex-end;
+@media screen and (min-width: 700px) {
+  .menu {
+    margin-left: auto;
+  }
 }
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
+
 .desktop {
   display: flex;
   justify-content: center;
