@@ -35,5 +35,6 @@ button.addEventListener("click", function () {
     })
 })
 
-
-
+const li = document.querySelectorAll(".li")
+const button2 = document.querySelector(".libutton")
+button.addEventListener("click", function () {
