@@ -19,11 +19,13 @@ exemple :
 
 function theaterSieges() {
   // Your code here !
-  const matrice = ([], []);
-  for (let i = 1; i < 27; i++) {
-    for (let j = 1; j < 101; j++) {
-      matrice.push(`${i} - ${j}`)
+  const matrice = [];
+  for (let i = 1; i <= 26; i++) {
+    const temp = [];
+    for (let j = 1; j <= 100; j++) {
+      temp.push(`${i}-${j}`)
     }
+    matrice.push(temp)
   }
   return matrice
 }
